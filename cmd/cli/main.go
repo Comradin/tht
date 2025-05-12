@@ -1,34 +1,50 @@
 package main
 
 import (
-	"log/slog"
+	"fmt"
+	//"log/slog"
 )
 
 func main() {
-	slog.Info("Initiating Startup Sequence")
-	slog.Info("Powering up zero-point energy core")
-	slog.Info("Stabilizing quantum vacuum fluctuations")
-	slog.Info("Unfolding subspace emitter field")
-	slog.Info("Subspace emitter field fully unfolded")
-	slog.Info("Subspace emitter field is now active")
-	slog.Info("Calibrating multidimensional antenna array")
-	slog.Info("Synchronizing phase with local spacetime")
-	slog.Info("Starting test sequence for subspace emitter field")
-	slog.Info("Test sequence for subspace emitter field completed successfully")
-	slog.Info("Subspace emitter field is now operational")
-	slog.Info("Preparing particle for quantum entanglement")
-	slog.Info("Particle is entering entanglement chamber")
-	slog.Info("Initiating quantum entanglement protocol")
-	slog.Info("Quantum entanglement established")
-	slog.Info("Opening dark matter containment field")
-	slog.Info("Dark matter containment field is now open")
-	slog.Info("Aligning hyperspace frequency bands")
-	slog.Info("Establishing tachyon uplink")
-	slog.Info("Tachyon uplink established")
-	slog.Info("Verifying neutrino stream integrity")
-	slog.Info("Neutrino stream integrity confirmed")
-	slog.Info("Activating graviton relay nodes")
-	slog.Info("Graviton relay nodes online")
-	slog.Info("Finalizing interstellar handshake protocol")
-	slog.Info("Faster-than-light communication array is now online and ready")
+	// Initialize the application
+	fmt.Println("Initiating Startup Sequence")
+
+	// Initialize subspace emitter field
+	fmt.Println("Powering up zero-point energy core")
+	fmt.Println("Stabilizing quantum vacuum fluctuations")
+	fmt.Println("Unfolding subspace emitter field")
+	fmt.Println("Subspace emitter field fully unfolded")
+	fmt.Println("Subspace emitter field is now active")
+
+	// Initialize faster-than-light communication array
+	fmt.Println("Calibrating multidimensional antenna array")
+	fmt.Println("Synchronizing phase with local spacetime")
+	fmt.Println("Starting test sequence for subspace emitter field")
+	fmt.Println("Test sequence for subspace emitter field completed successfully")
+	fmt.Println("Subspace emitter field is now operational")
+
+	// Initialize quantum entanglement protocol
+	fmt.Println("Preparing particle for quantum entanglement")
+	fmt.Println("Particle is entering entanglement chamber")
+	fmt.Println("Initiating quantum entanglement protocol")
+	fmt.Println("Quantum entanglement established")
+
+	// Initialize dark matter containment field
+	fmt.Println("Opening dark matter containment field")
+	fmt.Println("Dark matter containment field is now open")
+	fmt.Println("Aligning hyperspace frequency bands")
+
+	// Initialize tachyon uplink
+	fmt.Println("Establishing tachyon uplink")
+	fmt.Println("Tachyon uplink established")
+	fmt.Println("Verifying neutrino stream integrity")
+	fmt.Println("Neutrino stream integrity confirmed")
+
+	// Initialize graviton relay nodes
+	fmt.Println("Activating graviton relay nodes")
+	fmt.Println("Graviton relay nodes online")
+	fmt.Println("Finalizing interstellar handshake protocol")
+
+	// Final output, report status
+	fmt.Println("Faster-than-light communication array is now online and ready")
 }
