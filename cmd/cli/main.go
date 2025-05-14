@@ -33,54 +33,53 @@ func main() {
 		logger.Info("Initiating Startup Sequence")
 	}
 
-	// Initialize Subspace System
-	initializeSubspaceEmitterField := []string{
+	//initializeSubspaceEmitterField
+	outputStatus(logger, []string{
 		"Powering up zero-point energy core",
 		"Stabilizing quantum vacuum fluctuations",
 		"Unfolding subspace emitter field",
 		"Subspace emitter field fully unfolded",
 		"Subspace emitter field is now active",
-	}
-	outputStatus(logger, initializeSubspaceEmitterField)
+	})
 
-	initializeFasterThanLightCommunicationArray := []string{
+	//initializeFasterThanLightCommunicationArray
+	outputStatus(logger, []string{
 		"Calibrating multidimensional antenna array",
 		"Synchronizing phase with local spacetime",
 		"Starting test sequence for subspace emitter field",
 		"Test sequence for subspace emitter field completed successfully",
 		"Subspace emitter field is now operational",
-	}
-	outputStatus(logger, initializeFasterThanLightCommunicationArray)
+	})
 
-	initializeQuantumEntanglementProtocol := []string{
+	//initializeQuantumEntanglementProtocol
+	outputStatus(logger, []string{
 		"Preparing particle for quantum entanglement",
 		"Particle is entering entanglement chamber",
 		"Initiating quantum entanglement protocol",
 		"Quantum entanglement established",
-	}
-	outputStatus(logger, initializeQuantumEntanglementProtocol)
+	})
 
-	initializeDarkMatterContainmentField := []string{
+	//initializeDarkMatterContainmentField
+	outputStatus(logger, []string{
 		"Opening dark matter containment field",
 		"Dark matter containment field is now open",
 		"Aligning hyperspace frequency bands",
-	}
-	outputStatus(logger, initializeDarkMatterContainmentField)
+	})
 
-	initializeTachyonUplink := []string{
+	//initializeTachyonUplink
+	outputStatus(logger, []string{
 		"Establishing tachyon uplink",
 		"Tachyon uplink established",
 		"Verifying neutrino stream integrity",
 		"Neutrino stream integrity confirmed",
-	}
-	outputStatus(logger, initializeTachyonUplink)
+	})
 
-	initializeGravitonRelayNodes := []string{
+	//initializeGravitonRelayNodes
+	outputStatus(logger, []string{
 		"Activating graviton relay nodes",
 		"Graviton relay nodes online",
 		"Finalizing interstellar handshake protocol",
-	}
-	outputStatus(logger, initializeGravitonRelayNodes)
+	})
 
 	// Abschlussmeldung
 	if mode == "plain" {
@@ -98,6 +97,7 @@ func outputStatus(logger *slog.Logger, field []string) {
 			splayTime(sleepValue)
 		} else {
 			logger.Info(output)
+			splayTime(sleepValue)
 		}
 	}
 	fmt.Println("")
