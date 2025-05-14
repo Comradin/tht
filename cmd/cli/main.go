@@ -4,10 +4,17 @@ import (
 	"flag"
 	"fmt"
 	"log/slog"
+	"math/rand"
 	"os"
+	"time"
 )
 
 var mode string
+
+func splayTime(sleep int) {
+	rnd := rand.Intn(sleep)
+	time.Sleep(time.Duration(rnd) * time.Second)
+}
 
 func main() {
 	flag.StringVar(&mode, "mode", "plain", "Ausgabemodus: plain oder structured")
